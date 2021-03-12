@@ -16,7 +16,7 @@ Utilizing the public dataset about Pokemon, found here -> https://www.kaggle.com
 I created a Supervised Machine Learning problem. This was done by extracting a numerical column from the data and using it as the target variable. That is, I wanted to see if the other columns of the dataframe (Name, Attack, Speed, Defence, etc.) had "clues" within it that would allow me to predict the "Generation" the Pokemon was from.
 Initial results were relatively strong - with the best baseline model being Logistic Regression with: f1_score = accuracy = 0.685.
 With 'accuracy' being the measure of all the correctly identified generations, and f1 being the harmonic mean of precision and recall, which is a better measure of the incorrectly classified generations than the accuracy metric. 
-Next, tested out 3 different classifiers, searching through them and allowing the algorithm to test out different hyperparameters for each model to obtaing the "best" overall model. Logistic Regression remained victorious, giving: f1_score = 0.7925 and accuracy = 0.7979.
+Next, I tested out 3 different classifiers, searching through them and allowing the algorithm to test out different hyperparameters for each model to obtain the "best" overall model. Logistic Regression remained victorious, giving: f1_score = 0.7925 and accuracy = 0.7979.
 Wanting to know if I could squeeze any more out of the model, I applied K-means clustering to the data, which allowed me to bring up my final scores to: f1_score = 0.86575 and accuracy = 0.8457, on the training sets.
 This appeared to be quite promising- except when tested on the Test data scores were only slightly better than baseline at f1_score = 0.712 and accuracy = .724
 
