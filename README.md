@@ -1,5 +1,7 @@
 # ML-Lab_Final
 
+Link to find at Deepnote: https://deepnote.com/project/ccb00087-ba61-4db1-ba97-3a0ee74eb21a#%2FFinal_notebook.ipynb
+
 Repository includes:
   - "Behind the scenes" look at the process
   - Notebook to profile data
