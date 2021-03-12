@@ -16,4 +16,4 @@ Initial results were relatively strong - with the best baseline model being Logi
 Tested out 3 different classifiers, searching through them and allowing the algorithm to test out different hyperparameters for each model to obtaing the "best" overall model. Logistic Regression remained victorious, giving: f1_score = 0.7925 and accuracy = 0.8017.
 Wanting to know if I could squeeze any more out of the model, I applied K-means clustering to the data, which allowed me to bring up my final scores to: f1_score = 0.86575 and accuracy = 0.8457
 
-Going forward: Additional clustering techniques may be a feasible a worthwhile option to explore. Additionally, performing some feature importance/PCA might allow for a simplification of the model (though it is not particularly "complex") less features allow for better generalization.
+Going forward: Additional clustering techniques (and assessing via their evaluation metrics) may be a feasible and worthwhile option to explore. Additionally, performing some feature importance/PCA might allow for a simplification of the model (though it is not particularly "complex"). Less features allow for better interpretability.
